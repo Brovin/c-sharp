@@ -10,7 +10,11 @@ namespace CSharp
     {
         static void Main(string[] args)
         {
-           
-        }       
+        string[] a = new[] {"Hi", "World", "Woman"};
+        foreach(string b in a) {
+            Console.WriteLine(b);
+        }
+        Console.ReadKey();
     }
+}
 }
