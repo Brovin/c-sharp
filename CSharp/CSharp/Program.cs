@@ -10,6 +10,9 @@ namespace CSharp
         public void a() {
          Console.WriteLine("Hi");
 }
+        public int sum(int a, int b) {
+            return a + b;
+}
 }
     class Program
     {
@@ -17,6 +20,7 @@ namespace CSharp
 {
     MyClass a = new MyClass();
     a.a();
+    Console.WriteLine(a.sum(1,3));
     Console.ReadKey();
 }
 }
