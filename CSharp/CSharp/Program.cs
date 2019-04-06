@@ -10,8 +10,8 @@ namespace CSharp
     {
     static void Main(string[] args)
 {
-    Console.WriteLine("World");
-    Console.ReadKey();
+    Console.WriteLine("Hi");
+    Console.Read();
 }
 }
 }
