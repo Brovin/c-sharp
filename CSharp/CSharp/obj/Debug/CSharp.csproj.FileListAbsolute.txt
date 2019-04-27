@@ -5,3 +5,10 @@ C:\Users\Spark\Desktop\c-sharp\CSharp\CSharp\bin\Debug\CSharp.exe
 C:\Users\Spark\Desktop\c-sharp\CSharp\CSharp\bin\Debug\CSharp.pdb
 C:\Users\Spark\Desktop\c-sharp\CSharp\CSharp\obj\Debug\CSharp.exe
 C:\Users\Spark\Desktop\c-sharp\CSharp\CSharp\obj\Debug\CSharp.pdb
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\bin\Debug\CSharp.exe.config
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\bin\Debug\CSharp.exe
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\bin\Debug\CSharp.pdb
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\obj\Debug\CSharp.csprojAssemblyReference.cache
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\obj\Debug\CSharp.csproj.CoreCompileInputs.cache
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\obj\Debug\CSharp.exe
+C:\Users\Boris\Desktop\c-sharp\CSharp\CSharp\obj\Debug\CSharp.pdb

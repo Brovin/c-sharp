@@ -11,7 +11,15 @@ namespace CSharp
     {
          static void Main(string[] args)
         {
-            Users user1 = new Users("Дима", 25, "Администатор");
+            Users user1 = new Users("Дима", 25);
+            user1.printAll();
+            Users user2 = new Admin("Леша", 31, "Администратор");
+            user2.printAll();
+            Car bmw = new Car(180.3f);
+            Console.WriteLine($"Скорость {bmw.getSpeed()}");
+            Car.Engine engine = new Car.Engine();
+            engine.startEngine(true);
+            Console.WriteLine(engine.getIsStart());
             Console.ReadKey();
         }
     }
