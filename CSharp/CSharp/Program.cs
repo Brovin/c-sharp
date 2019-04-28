@@ -11,9 +11,9 @@ namespace CSharp
     {
          static void Main(string[] args)
         {
-            Users user1 = new Users("Дима", 25);
+            Users user1 = new Users("Дима", 23);
             user1.printAll();
-            Users user2 = new Admin("Леша", 31, "Администратор");
+            Users user2 = new Admin("Леша", 33, "Администратор");
             user2.printAll();
             Car bmw = new Car(180.3f);
             Console.WriteLine($"Скорость {bmw.getSpeed()}");
