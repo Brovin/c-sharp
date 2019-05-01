@@ -9,18 +9,33 @@ namespace CSharp
 {
     class Program
     {
+         delegate void Message();
+         delegate int Operation(int x, int y);
+
          static void Main(string[] args)
         {
-            Users user1 = new Users("Дима", 23);
-            user1.printAll();
-            Users user2 = new Admin("Леша", 33, "Администратор");
-            user2.printAll();
-            Car bmw = new Car(180.3f);
-            Console.WriteLine($"Скорость {bmw.getSpeed()}");
-            Car.Engine engine = new Car.Engine();
-            engine.startEngine(true);
-            Console.WriteLine(engine.getIsStart());
+            Message mes;
+
+            if(DateTime.Now.Hour < 12){
+                mes = GoodMorning;
+            } else {
+                mes = GoodEvening;
+            }
+
+            mes();
+
+            Operation operation = (x, y) => x * y;
+            Console.WriteLine(operation(5,5));
+
             Console.ReadKey();
+        }
+
+        private static void GoodMorning(){
+            Console.WriteLine("Good Morning");    
+        }
+
+        private static void GoodEvening() {
+            Console.WriteLine("Good Evening");
         }
     }
 }
