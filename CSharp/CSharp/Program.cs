@@ -11,7 +11,12 @@ namespace CSharp
     {
          static void Main(string[] args)
         {
-
+            int[] arr = {8,5,4};
+            Array.Reverse(arr);
+            foreach(int a in arr) {
+                Console.Write(a);
+            }
+            Console.ReadKey();
         }
     }
 }
