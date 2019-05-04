@@ -10,13 +10,15 @@ namespace CSharp
     class Program
     {
          static void Main(string[] args)
-        {
-            int[] arr = {8,5,4};
-            Array.Reverse(arr);
-            foreach(int a in arr) {
-                Console.Write(a);
-            }
+         {
+            string a = Console.ReadLine();
+            string b = Console.ReadLine();
+            int one = String.Compare(a, b);
+            int two = String.Compare(a.ToLower(), b.ToLower());
+            Console.WriteLine(one);
+            Console.WriteLine(two);
+
             Console.ReadKey();
-        }
+         }
     }
 }
