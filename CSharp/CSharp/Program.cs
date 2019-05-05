@@ -11,14 +11,8 @@ namespace CSharp
     {
          static void Main(string[] args)
          {
-            string a = Console.ReadLine();
-            string b = Console.ReadLine();
-            int one = String.Compare(a, b);
-            int two = String.Compare(a.ToLower(), b.ToLower());
-            Console.WriteLine(one);
-            Console.WriteLine(two);
-
+            Console.WriteLine("Hi");
             Console.ReadKey();
-         }
+        }
     }
 }
